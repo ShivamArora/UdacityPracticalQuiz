@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PracticalQuiz</string>
+    <string name="detail">Detail</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="write_about_yourself">Write about yourself\n</string>
+    <string name="next">Next</string>
+    <string name="demo_username">DemoUsername</string>
+    <string name="demo_email">demo_email@example.com</string>
+    <string name="demo_personal_info">This is the Demo description and will replace with the original ones.</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/iv_profile_image"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:src="@drawable/ic_face_black_24px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_32"/>
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_username"
+        android:layout_below="@+id/iv_profile_image"
+        android:layout_marginTop="@dimen/dp_8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="@dimen/sp_18"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_email"
+        android:layout_below="@+id/tv_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_16"/>
+
+    <TextView
+        android:id="@+id/tv_personal_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_personal_info"
+        android:layout_below="@id/tv_email"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_16"
+        android:textSize="@dimen/sp_16"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:layout_marginLeft="@dimen/dp_32"
+        android:layout_marginRight="@dimen/dp_32"
+        android:layout_marginStart="@dimen/dp_32"
+        android:layout_marginEnd="@dimen/dp_32"/>
+</RelativeLayout>
